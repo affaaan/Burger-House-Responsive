@@ -1,0 +1,233 @@
+@media (max-width:1199px) {
+    .r_img_bottle {
+        left: 5%;
+    }
+    .r_img_right {
+        top: 55%;
+        width: 25%;
+    }
+    .f_icon {
+        display: flex;
+        justify-content: end;
+        margin-top: 80%;
+        align-items: center;
+    }
+    .f_icon {
+        margin-top: 80%;
+    }
+    .middle_burger {
+        margin-top: 10px !important;
+    }
+
+}
+@media (max-width:991px) {
+    .nav-link {
+        width: 50%;
+        text-align: center;
+        border: 1px solid black;
+        margin-top: 5px;
+    }
+    .middle_burger {
+        margin-top: 20px !important;
+    }
+    .banner_left h1 {
+        font-size: 80px;
+    }
+    header {
+        min-height: 150vh;
+    }
+    .owl-dots {
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .r_img_bottle {
+        top: 36%;
+        left: 0%;
+    }
+    .r_img_right {
+        right: 0;
+        top: 70%;
+        width: 27%;
+    }
+    .f_left_col p {
+        margin-top: 30px;
+    }
+    .f_right_col span {
+        font-size: 12px;
+    }
+    .f_right_col a {
+        font-size: 13px;
+    }
+    .f_icon {
+        margin-top: 85%;
+    }
+}
+
+
+@media (max-width:767px) {
+    
+    header{
+        background-image: none;
+        background: #ffc107;
+        min-height: 80vh;
+    }
+    .try_left_img {
+        margin: 10px 0px;
+    }
+    .owl-dots {
+        bottom: -5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .choose_item {
+        padding-bottom: 40px;
+        width: 50%;
+        margin: auto !important;
+    }
+    .r_img_left {
+        width: 40%;
+    }
+    .r_img_right {
+        top: 0%;
+        width: 26%;
+    }
+    .r_img_bottle {
+        visibility: hidden;
+    }
+      
+    .reserv_left {
+        width: 100%;
+        padding-right:0px;
+    }
+    .reservation_section {
+        padding: 0px;
+        padding-top: 70px;
+    }
+    
+    .choose_top {
+        margin-bottom: 30px;
+    }
+    .f_left_col p {
+        margin-top: 40px;
+    }
+    .f_right_col {
+        margin-top: 5%;
+    }
+    .f_icon {
+        margin-top:0;
+    }
+    footer {
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width:575px) {
+    
+  
+    .banner_left h1 {
+        font-size: 40px;
+    }
+    .banner_left p {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    
+    .mt-5 {
+        margin-top: 0rem!important;
+    }
+    
+    .banner_left h3 {
+        font-size: 40px;
+    }
+    
+    
+  
+}
+
+
+@media (max-width:320px) {
+    header{
+        background-image: none;
+        background: #ffc107;
+        min-height: 60vh;
+    }
+    .banner_left h1 {
+        font-size: 50px;
+    }
+    .banner_left p {
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .mt-5 {
+        margin-top:0!important;
+    }
+    .banner_left {
+        margin-top: 0px;
+    }
+    .nav-link {
+        border: 2px solid #3d2514;
+        font-size: 15px;
+        width: 40%;
+        text-align: center;
+        margin: 2px 0px;
+    }
+    .try_it_section h5 {
+        font-size: 15px;
+    }
+    .try_it_section h3 {
+        font-size: 15px;
+    }
+    .try_left {
+        margin: 15px 0px;
+    }
+    .choose_top {
+        margin-bottom: 30px;
+    }
+    .owl-dots {
+        bottom: -5%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .r_img_left {
+        width: 50%;
+    }
+    .r_img_bottle {
+      visibility: hidden;
+    }
+    .r_img_right{
+        width: 30%;
+        top: 0;
+    }
+    .reserv_left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .reservation_section {
+        padding: 0;
+       padding-top: 50px;
+    }
+    footer {
+        margin-top: 40px;
+        padding-bottom:0px;
+    }
+    .f_right_col a {
+        font-size: 10px;
+    }
+    .f_left_col p {
+        margin-top: 60px;
+        text-align: center;
+    }
+    .try_it_section {
+        padding-bottom: 10px;
+    }
+    .header_top a {
+        font-size: 14px;
+    }
+    .choose_item {
+        width: 80%;
+    }
+    
+}

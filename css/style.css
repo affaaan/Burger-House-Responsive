@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6,ul,li,span{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/header_bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 130vh;
+}
+.header_top{
+    display: flex;
+    align-items: center;
+}
+.header_top img{
+    
+}
+.header_top p{
+    
+}
+.header_top span{    
+    font-size: 30px;    
+    margin-right: 8px;
+}
+.header_top a{   
+    font-family: 'Montserrat', sans-serif;   
+    text-decoration: none;   
+    color: #606062;   
+    font-weight: 700;   
+    font-size: 18px;
+}
+.navbar{
+padding: 0;
+}
+.nav-item{
+    font-size: 19px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: #606062;
+    margin-left: 30px;
+
+}
+
+.nav-link{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-shadow: 1px 1px #b6a89f ;
+}
+.nav-link:hover{
+    border-color:#3d2514;
+    color:#7a716b ;
+    box-shadow: 5px 5px 5px rgb(70, 65, 65);
+    
+    }
+/* banner section starts from here */
+.banner_section{
+
+}
+.banner_left{
+margin-top: 80px;
+}
+.banner_left p{
+    border-style: dashed;
+    padding: 10px 19px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner_left h1{    
+    font-size: 95px;    
+    font-weight: 900;    
+    text-shadow: 5px 5px #fee8bc;   
+    color: #3d2514;
+}
+.banner_left h3{   
+    font-size: 55px;   
+    font-weight: 900;    
+    text-shadow: 5px 5px #fee8bc;    
+    color: #3d2514;   
+    margin-left: 5px;
+}
+
+/* try it section starts from here */
+.try_it_section{
+    padding-bottom: 70px;
+}
+.try_it_section h3{
+
+}
+.try_it_section h5{
+    font-size: 19px;
+}
+.try_left{
+    position: relative;
+}
+.try_left_img{
+
+}
+.try_left_img img{
+}
+.try_left_text{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    color: #fff;
+}
+.try_right{
+}
+.try_right_child1{
+    position: relative;
+}
+.try_right_img1{
+    margin-bottom: 6%;
+}
+.try_right_img1 img{
+    
+}
+.try_right_text1{
+    position: absolute;
+    color: #fff;
+    top: 13%;
+    left: 5%;
+}
+.try_right_child2{
+
+    position: relative;
+}
+.try_right_img2{
+
+}
+.try_right_img2 img{
+    
+}
+.try_right_text2{
+    position: absolute;
+    top: 13%;
+    color: #fff;
+    left: 5%;
+}
+/* choose section starts from here */
+.choose_section{
+
+}
+.choose_section .btn{
+    background: red;
+    padding: 0;
+    font-weight: 700;
+    border-radius: 0;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid red;
+    }
+.choose_section .btn:hover{
+    background: transparent;
+    border: 1px solid red;
+    color: red;
+    box-shadow: 5px 5px rgb(182, 178, 178);
+}
+.choose_top{
+
+}
+.choose_top span{    
+    background: #ffc045;    
+    font-size: 16px;    
+    font-weight: 700;   
+    padding: 5px;
+}
+.choose_top h1{    
+    font-weight: 900;   
+    margin: 15px 0px;
+}
+.choose_top p{   
+    color: #80756f;
+}
+.choose_item{    
+    padding-bottom: 70px;
+}
+.middle_burger{
+    margin-top: 0px;
+}
+.choose_item img{    
+    margin-left: 15px;
+}
+.choose_item h4{   
+    font-weight: 700;
+}
+.choose_item p{    
+    margin: 15px 0px;    
+    color: #80756f;
+}
+/* discover section starts frpm here */
+.discover_section{
+    padding: 50px 0px;
+    background: #f9f9f9;
+    position: relative;
+}
+.discover_section h6{   
+    font-size: 17px;   
+    font-weight: 700;    
+    color: #3d2514;
+}
+.discover_section h3{    
+    color: #3d2514;    
+    font-weight: 900;
+}
+.discover_section p{
+    margin-top: 20px;
+}
+.discover_section img{
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+}
+.owl-dots .owl-dot span{   
+    display: block;   
+    height: 15px;    
+    width: 15px;    
+    background: #dcdcdc;    
+    margin: 5px;    
+    border-radius: 50%;
+}
+.owl-dots .owl-dot.active span{   
+    background: #ffc045;
+}
+/* reservation section starts from here */
+.reservation_section{
+
+    padding: 70px 0px;
+    position: relative;
+}
+.reserv_top{
+    text-align: center;
+}
+.reserv_top h5{   
+    font-weight: 700;    
+    color: #3d2514;   
+    margin-top: 60px;
+}
+.reserv_top h1{   
+    font-weight: 900;    
+    margin-bottom: 60px;   
+    color: #3d2514;
+}
+form{
+}
+form input{   
+    width: 100%;   
+    padding: 20px !important;    
+    margin: 20px 0;
+}
+input::placeholder{
+    font-weight: 500;
+}
+form input[type='button']{
+    margin: 0;background: red;
+    border: none;
+    border-radius: 5px;
+    color: #Fff;
+    font-size: 17px;
+    font-weight: 900;
+}
+.reserv_left{
+    width: 95%;
+    padding-right: 15px;
+}
+form input[type='button']:hover{
+    background: #3d2514;
+}
+.reserv_right{   
+    width: 95%;   
+    padding-left: 15px;
+    }
+
+.r_img_left{
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+.r_img_bottle{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.r_img_right{
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+/* footer section starts from here */
+footer{
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+.f_bg{
+    background-image: url(../images/footer_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    color: #fff;
+    padding: 30px;
+}
+.f_left_col{
+}
+.f_left_col img{
+    z-index: 999;
+}
+.f_left_col p{
+    margin-top: 100px;
+}
+.f_end{
+
+}
+.f_right_col{
+    margin-top: 30%;
+}
+.f_right_col p{   
+    font-size: 15px;  
+    font-weight: 500;    
+    align-items: center;    
+    display: flex;   
+    text-transform: uppercase;   
+    margin-bottom: 10px;
+}
+.f_right_col i{  
+    font-size: 30px;
+}
+.f_right_col a{    
+    text-decoration: none;   
+    color: #fff;   
+    margin-left: 10px;
+}
+.f_right_col span{  
+    margin-left: 15px;
+}
+.f_icon{
+    display: flex;
+    justify-content: end;
+    margin-top: 64%;
+    align-items: center;
+}
+.f_icon i{  
+    margin: 5px;  
+    font-size: 20px;   
+    text-align: center;   
+    background: white;   
+    color: black; 
+    border-radius: 50%;   
+    height: 30px;   
+    width: 30px;   
+    display: flex;   
+    align-items: center;  
+    justify-content: center;
+    border: 1px solid white;
+}
+.f_icon i:hover{
+    color: red;
+    background: black;
+    border-color: rgb(255, 255, 255);
+    transition: .3s all ease-in-out;
+}
